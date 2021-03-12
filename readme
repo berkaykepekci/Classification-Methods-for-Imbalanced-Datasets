@@ -1,0 +1,9 @@
+In some classification problems, datasets we have do not include balanced target labels. For instance, there might be five thousand "0" while there are only 200 "1".
+In this cases, our model won't behave correctly and most probably it will only predict "0".
+
+This repository includes various methods to avoid these problems while working on imbalanced datasets.I investigated class_weight tuning, oversampling (SMOTE) and threshold tuning.
+
+Dataset I used: https://www.kaggle.com/fedesoriano/stroke-prediction-dataset 
+
+Note_1: "rdf.csv" is dataset which is preprocessed to use for each method.
+Note_2: I inspired from different developers and websites.
